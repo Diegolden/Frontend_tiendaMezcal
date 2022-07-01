@@ -1,4 +1,4 @@
-# Backend Mezcal Shop 🍋
+# Frontend Mezcal Shop 🍋
 
 **Un proyecto genial para una pagina genial.**
 *Este es un proyecto que estamos desarrollando como equipo de trabajo para una pequeña tienda de mezcal, siendo esta la parte del visual o Frontend del proyecto *
