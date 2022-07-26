@@ -1,0 +1,67 @@
+/*======================
+  Google fonts
+========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+body {
+    background-color: #D9D9D9!important;
+}
+
+
+/*=========Navar==========*/
+
+.navarsito {
+    background-color: black;
+    color: white!important;
+    font-family: 'Freckle Face', cursive;
+}
+
+
+/*=========Fin Navar==========*/
+
+.borde {
+    background-color: rgb(255, 255, 255)!important;
+    height: 8px;
+}
+
+.fila-principal {
+    font-family: 'Freckle Face', cursive;
+    background-color: #B2B2A9!important;
+    color: black;
+}
+
+.tabla {
+    padding-top: 15px;
+}
+
+.filas {
+    background-color: black!important;
+    color: white;
+    align-items: center;
+}
+
+.imagen_mezcal {
+    height: 123px;
+    width: 64px;
+}
+
+.fila_letras {
+    font-family: 'Freckle Face', cursive;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.total {
+    border-radius: 0px;
+    background: #FFFFFF;
+    font-size: 25px;
+    font-family: 'Freckle Face';
+}
+
+.finalizar_compra {
+    background-color: black;
+}
+
+.tabla_finalizar_compra {
+    color: #B09A49!important;
+}
