@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
 body {
     background-color: black!important;
+    overflow-x: hidden
 }
 
 
@@ -45,8 +46,4 @@ body {
 .todos {
     padding-right: 50px;
     font-size: 100px;
-}
-
-::-webkit-scrollbar-button {
-    display: none;
 }
