@@ -5,16 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductosComponent } from './productos/productos.component';
 import { CarritoComponent } from './carrito/carrito.component';
+import { LoginComponent } from './login/login.component';
+import { ROUTING } from './app.routes';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductosComponent,
-    CarritoComponent
+    CarritoComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
