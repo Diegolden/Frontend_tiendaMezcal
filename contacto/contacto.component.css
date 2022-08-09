@@ -1,0 +1,232 @@
+/*======================
+  Google fonts
+========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+body {
+    background-image: url(../../assets/img/Rectangle.png)!important;
+}
+
+
+/*=========Navar==========*/
+
+.navarsito {
+    background-color: black;
+    color: white!important;
+    font-family: 'Freckle Face', cursive;
+}
+
+.borde {
+    background-color: rgb(255, 255, 255)!important;
+    height: 8px;
+}
+
+
+/*=========Fin Navar==========*/
+
+.agave {
+    position: absolute;
+    left: 64.20%;
+    right: 0%;
+    top: 53.95%;
+    bottom: 0%;
+}
+
+.mezcal {
+    position: absolute;
+    left: -80%;
+    right: 74.07%;
+    top: 5%;
+    bottom: 15.53%;
+    height: 510px;
+    width: 280px;
+}
+
+.descripcion {
+    background-image: url(../../assets/img/Vector.png)!important;
+    height: 89%;
+    z-index: 100;
+}
+
+.informacion {
+    color: white!important;
+    font-family: 'Freckle Face', cursive;
+}
+
+.informacion h1 {
+    text-align: center;
+}
+
+.informacion p {
+    font-family: Post No Bills Colombo Medium;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+.bordesito {
+    background-color: rgb(255, 255, 255)!important;
+    height: 2px;
+    z-index: 100!important;
+}
+
+.armonia-perfecta {
+    z-index: 100!important;
+}
+
+.armonia-perfecta h5 {
+    text-align: center;
+    font-family: 'Post No Bills Colombo Medium'!important;
+    color: #B09A49;
+    font-weight: 500;
+}
+
+.armonia-perfecta p {
+    color: white;
+    text-align: center;
+}
+
+.rayita {
+    background-color: rgb(255, 255, 255)!important;
+    height: 100%;
+    width: 2px;
+}
+
+.tipo-agave h4 {
+    font-family: 'Post No Bills Colombo Medium';
+    font-size: 17px;
+}
+
+.precio h4 {
+    font-family: 'Post No Bills Colombo Medium';
+    font-size: 17px;
+    text-align: left;
+}
+
+.precio {
+    font-family: 'Post No Bills Colombo Medium';
+    font-size: 17px;
+    text-align: center;
+    z-index: 100;
+}
+
+.botonsito {
+    font-family: 'Post No Bills Colombo Medium'!important;
+}
+
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    background:#92bde7;
+    color:#485e74;
+    line-height:1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:1em;
+  }
+  
+  .container{
+    max-width:1170px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
+  }
+  
+  ul{
+    list-style: none;
+    padding:0;
+  }
+  
+  .brand{
+    text-align: center;
+  }
+  
+  .brand span{
+    color:#fff;
+  }
+  
+  .wrapper{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+  }
+  
+  .wrapper > *{
+    padding: 1em;
+  }
+  
+  .company-info{
+    background:#c9e6ff;
+  }
+  
+  .company-info h3, .company-info ul{
+    text-align: center;
+    margin:0 0 1rem 0;
+  }
+  
+  .contact{
+    background:#f9feff;
+  }
+  
+  /* FORM STYLES */
+  .contact form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+  }
+  
+  .contact form label{
+    display:block;
+  }
+  
+  .contact form p{
+    margin:0;
+  }
+  
+  .contact form .full{
+    grid-column: 1 / 3;
+  }
+  
+  .contact form button, .contact form input, .contact form textarea{
+    width:100%;
+    padding:1em;
+    border:1px solid #c9e6ff;
+  }
+  
+  .contact form button{
+    background:#c9e6ff;
+    border:0;
+    text-transform: uppercase;
+  }
+  
+  .contact form button:hover,.contact form button:focus{
+    background:#92bde7;
+    color:#fff;
+    outline:0;
+    transition: background-color 2s ease-out;
+  }
+  
+  .alert{
+    text-align: center;
+    padding:10px;
+    background:#79c879;
+    color:#fff;
+    margin-bottom:10px;
+    display:none;
+  }
+  
+  /* LARGE SCREENS */
+  @media(min-width:700px){
+    .wrapper{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+  
+    .wrapper > *{
+      padding:2em;
+    }
+  
+    .company-info h3, .company-info ul, .brand{
+      text-align: left;
+    }
+  }

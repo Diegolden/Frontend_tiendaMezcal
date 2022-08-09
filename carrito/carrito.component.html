@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mezcal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Empieza header -->
+    <div>
+        <nav class="navbar navbar-expand-lg navarsito ">
+            <div class="container-fluid">
+                <a class=" navbar-brand  letra_menu text-white fs-4" href="#">Mandala</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+                    <ul class="navbar-nav mb-lg-0">
+                        <li class=" d-flex nav-item">
+                            <a class="nav-link text-white fs-4" [routerLink]="['/login']">Inicio  </a>
+                        </li>
+                        <li class=" d-flex nav-item">
+                            <a class="nav-link text-white fs-4" [routerLink]="['/productos']">Productos  </a>
+                        </li>
+                        <li class=" d-flex nav-item">
+                            <a class="nav-link text-white fs-4" [routerLink]="['/carrito']">Carrito  </a>
+                        </li>
+                        <li class=" d-flex nav-item">
+                            <a class="nav-link text-white fs-4" [routerLink]="['/login']">Contacto  </a>
+                        </li>
+                        <li class=" d-flex nav-item">
+                            <a class="nav-link text-white fs-4" [routerLink]="['/login']">Login  </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+    </div>
+    <div class="borde col-lg-12">
+        <!--para el borde blanco-->
+    </div>
+
+    <!-- termina header -->
+    <div class="container">
+        <div class="row ">
+            <div class="tabla col-lg-12">
+                <table class="table text-center pt-1 ">
+                    <thead>
+                        <tr>
+                            <th class=" fila-principal" scope="col"></th>
+                            <th class=" fila-principal" scope="col">PRODUCTO</th>
+                            <th class=" fila-principal" scope="col">PRECIO</th>
+                            <th class=" fila-principal" scope="col">CANTIDAD</th>
+                            <th class=" fila-principal" scope="col">SUBTOTAL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="filas">
+                            <th scope="row"><img class="imagen_mezcal" src="../../assets/img/ojo de tigre.png" alt=""></th>
+                            <td class="fila_letras">MEZCAL OJO DE TIGE 800ML</td>
+                            <td class="fila_letras">$890.00MX</td>
+                            <td class="fila_letras">1</td>
+                            <td class="fila_letras">$890.00MX</td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                        </tr>
+                        <tr class="filas">
+                            <th scope="row"><img class="imagen_mezcal" src="../../assets/img/mezcal_conejos.png" alt=""></th>
+                            <td class="fila_letras">MEZCAL 400 CONEJOS 750ML</td>
+                            <td class="fila_letras">$535.00MX</td>
+                            <td class="fila_letras">2</td>
+                            <td class="fila_letras">$1070.00MX</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-8"></div>
+            <div class="row col-lg-4">
+                <div class="total">
+                    <p>TOTAL CARRITO</p>
+                </div>
+                <div class="finalizar_compra">
+                    <table class="table border-0">
+                        <tbody>
+                            <tr>
+                                <th class="tabla_finalizar_compra" scope="row">SUBTOTAL:</th>
+                                <td class="text-white">$1960.00MX</td>
+                            </tr>
+                            <tr>
+                                <th class="tabla_finalizar_compra" scope="row">TOTAL:</th>
+                                <td class="text-white">$1960.00MX</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="d-grid gap-2 pb-1">
+                        <button type="button" class="btn btn-outline-warning">FINALIZAR COMPRA</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
