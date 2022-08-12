@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mezcal</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
@@ -29,7 +30,7 @@
                             <a class="nav-link text-white fs-4" [routerLink]="['/carrito']">Carrito  </a>
                         </li>
                         <li class=" d-flex nav-item">
-                            <a class="nav-link text-white fs-4" [routerLink]="['/producto']">Contacto  </a>
+                            <a class="nav-link text-white fs-4" [routerLink]="['/login']">Contacto  </a>
                         </li>
                         <li class=" d-flex nav-item">
                             <a class="nav-link text-white fs-4" [routerLink]="['/login']">Login  </a>
@@ -47,29 +48,45 @@
     </div>
 
     <!-- termina header -->
-
     <div class="row">
-        <div class="cuadro_principal col-lg-12 text-end">
-            <div class="col-lg-5 text-end">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <div class="mezcal">
-                    <h1>MEZCAL</h1><br>
+        <div class="descripcion col-lg-8 position-absolute end-0">
+            <div class="informacion col-lg-9 position-absolute end-0 pt-5 p-4">
+                <img src="img/agave.png" class="agave">
+                <img src="img/image 5 (2).png" class="mezcal">
+                <h1>MEZCAL JOVEN</h1>
+
+                <p>El balance de dos destilaciones de distintas intensidades y perfiles de sabor-aroma. SEÑORÍO JOVEN nace de la pasión, conocimiento, trabajo y herencia de generaciones Oaxaqueñas.
+                </p>
+                <h1>ARMONIA PERFECTA</h1>
+                <div class="bordesito"></div>
+                <div class="row">
+                    <div class="armonia-perfecta col-lg-6">
+                        <h5>DOS DESTILACIONES</h5>
+                        <P>Dos diferentes intensidades y perfiles de sabor y aroma.</P>
+
+                    </div>
+                    <div class="armonia-perfecta col-lg-6">
+                        <h5>BALANCE PERFECTO</h5>
+                        <P>Entre las notas suaves de humo y el sabor puro del agave.</P>
+                    </div>
                 </div>
-                <div class="para">
-                    <p> PARA</p><br>
+
+                <div class="bordesito"></div>
+
+                <div class="row">
+                    <div class="tipo-agave col-lg-6  pt-3">
+                        <h4><img src="img/agavito.png"> TIPO DE AGAVE: ESPADIN</h4>
+                        <h4><img src="img/agavito.png"> CONTENIDO: 800 ML</h4>
+
+                    </div>
+                    <div class="precio col-lg-6 pt-4">
+                        <h4>COSTO: $689.00 MX</h4>
+                        <button type="button" class="botonsito btn btn-outline-warning">AGREGAR</button>
+                    </div>
                 </div>
-                <div class="todos">
-                    <p> TODOS</p><br>
-                </div>
-                <br>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>

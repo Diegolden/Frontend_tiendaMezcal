@@ -29,7 +29,7 @@
                             <a class="nav-link text-white fs-4" [routerLink]="['/carrito']">Carrito  </a>
                         </li>
                         <li class=" d-flex nav-item">
-                            <a class="nav-link text-white fs-4" [routerLink]="['/login']">Contacto  </a>
+                            <a class="nav-link text-white fs-4" [routerLink]="['/producto']">Contacto  </a>
                         </li>
                         <li class=" d-flex nav-item">
                             <a class="nav-link text-white fs-4" [routerLink]="['/login']">Login  </a>
@@ -47,40 +47,49 @@
     </div>
 
     <!-- termina header -->
-    <div class="row">
-        <div class="descripcion col-lg-8 position-absolute end-0">
-            <div class="informacion col-lg-9 position-absolute end-0 pt-5 p-4">
-                <img src="../../assets/img/agave.png" class="agave">
-                <img src="../../assets/img/image 5 (2).png" class="mezcal">
-                <h1>MEZCAL JOVEN</h1>
+    <div class="container contenedor_todo">
+        <div class="container contenedor_productos">
+            <br>
+            <br>
+            <div class=" tp-3 text-center text-light">
+                <h4 class="productos_titulo">PRODUCTOS</h4>
+            </div>
 
-                <p>El balance de dos destilaciones de distintas intensidades y perfiles de sabor-aroma. SEÑORÍO JOVEN nace de la pasión, conocimiento, trabajo y herencia de generaciones Oaxaqueñas.
-                </p>
-                <h1>ARMONIA PERFECTA</h1>
-                <div class="bordesito"></div>
-                <div class="row">
-                    <div class="armonia-perfecta col-lg-6">
-                        <h5>DOS DESTILACIONES</h5>
-                        <P>Dos diferentes intensidades y perfiles de sabor y aroma.</P>
+            <div class="row">
 
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/image 2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mezcal Espadin</h5>
+                                <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt="">
+                                <p class="card-text">$500</p>
+                                <button type="button" [routerLink]="['/producto']" class="botonsito btn btn-outline-warning">AGREGAR</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="armonia-perfecta col-lg-6">
-                        <h5>BALANCE PERFECTO</h5>
-                        <P>Entre las notas suaves de humo y el sabor puro del agave.</P>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/image 3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mezcal Tobala</h5>
+                                <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt="">
+                                <p class="card-text">$500</p>
+                                <button type="button" [routerLink]="['/producto']" class="botonsito btn btn-outline-warning">AGREGAR</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <div class="bordesito"></div>
-
-                <div class="row">
-                    <div class="tipo-agave col-lg-6  pt-3">
-                        <h4><img src="../../assets/img/agavito.png"> TIPO DE AGAVE: ESPADIN</h4>
-                        <h4><img src="../../assets/img/agavito.png"> CONTENIDO: 800 ML</h4>
-
-                    </div>
-                    <div class="precio col-lg-6 pt-4">
-                        <h4>COSTO: $689.00 MX</h4>
-                        <button type="button" class="botonsito btn btn-outline-warning">AGREGAR</button>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/image 4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mezcal Raiz Cenizo</h5>
+                                <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt="">
+                                <p class="card-text">$500</p>
+                                <button type="button" [routerLink]="['/producto']" class="botonsito btn btn-outline-warning">AGREGAR</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
