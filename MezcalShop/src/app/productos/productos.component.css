@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
 body {
-    background-image: url(../../assets/img/Rectangle.png)!important;
+    background-image: url(img/fondoooo.jpeg)!important;
 }
 
 
@@ -24,93 +24,34 @@ body {
 
 /*=========Fin Navar==========*/
 
-.agave {
-    position: absolute;
-    left: 64.20%;
-    right: 0%;
-    top: 53.95%;
-    bottom: 0%;
-}
-
-.mezcal {
-    position: absolute;
-    left: -80%;
-    right: 74.07%;
-    top: 5%;
-    bottom: 15.53%;
-    height: 510px;
-    width: 280px;
-}
-
-.descripcion {
-    background-image: url(../../assets/img/Vector.png)!important;
-    height: 89%;
-    z-index: 100;
-}
-
-.informacion {
-    color: white!important;
+.productos_titulo {
     font-family: 'Freckle Face', cursive;
+    font-size: 35px;
 }
 
-.informacion h1 {
-    text-align: center;
+.contenedor_productos {
+    background: radial-gradient(50% 50% at 50% 50%, #27282D 0%, #202126 43.05%, #0F1016 100%);
+    height: 780px!important;
 }
 
-.informacion p {
-    font-family: Post No Bills Colombo Medium;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 36px;
-    letter-spacing: 0em;
+.card-body {
+    border-radius: 0px;
+    background: #343333;
+    border-bottom: 10px solid rgba(27, 26, 26, 0.6);
+    box-shadow: 10px 15px 4px rgba(0, 0, 0, 0.25);
 }
 
-.bordesito {
-    background-color: rgb(255, 255, 255)!important;
-    height: 2px;
-    z-index: 100!important;
+.card {
+    width: 290px;
+    height: auto;
 }
 
-.armonia-perfecta {
-    z-index: 100!important;
-}
-
-.armonia-perfecta h5 {
-    text-align: center;
-    font-family: 'Post No Bills Colombo Medium'!important;
-    color: #B09A49;
-    font-weight: 500;
-}
-
-.armonia-perfecta p {
+.card-title {
+    font-family: 'Freckle Face', cursive;
     color: white;
-    text-align: center;
 }
 
-.rayita {
-    background-color: rgb(255, 255, 255)!important;
-    height: 100%;
-    width: 2px;
-}
-
-.tipo-agave h4 {
-    font-family: 'Post No Bills Colombo Medium';
-    font-size: 17px;
-}
-
-.precio h4 {
-    font-family: 'Post No Bills Colombo Medium';
-    font-size: 17px;
-    text-align: left;
-}
-
-.precio {
-    font-family: 'Post No Bills Colombo Medium';
-    font-size: 17px;
-    text-align: center;
-    z-index: 100;
-}
-
-.botonsito {
-    font-family: 'Post No Bills Colombo Medium'!important;
+.card-text {
+    color: #FFC278;
+    font-family: 'Gugi';
 }

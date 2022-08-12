@@ -7,13 +7,15 @@ import { ProductosComponent } from './productos/productos.component';
 import { CarritoComponent } from './carrito/carrito.component';
 import { LoginComponent } from './login/login.component';
 import { ROUTING } from './app.routes';
+import { ProductoComponent } from './producto/producto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductosComponent,
     CarritoComponent,
-    LoginComponent
+    LoginComponent,
+    ProductoComponent
   ],
   imports: [
     BrowserModule,
