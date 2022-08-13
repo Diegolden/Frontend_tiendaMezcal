@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mezcal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Empieza header -->
+    <div>
+        <nav class="navbar navbar-expand-lg navarsito ">
+            <div class="container-fluid">
+                <a class=" navbar-brand  letra_menu text-white fs-4" href="#">Mandala</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+                    <ul class="navbar-nav mb-lg-0">
+                        <li class=" d-flex nav-item">
+                            <a class="nav-link text-white fs-4" [routerLink]="['/login']">Inicio  </a>
+                        </li>
+                        <li class=" d-flex nav-item">
+                            <a class="nav-link text-white fs-4" [routerLink]="['/productos']">Productos  </a>
+                        </li>
+                        <li class=" d-flex nav-item">
+                            <a class="nav-link text-white fs-4" [routerLink]="['/carrito']">Carrito  </a>
+                        </li>
+                        <li class=" d-flex nav-item">
+                            <a class="nav-link text-white fs-4" [routerLink]="['/producto']">Contacto  </a>
+                        </li>
+                        <li class=" d-flex nav-item">
+                            <a class="nav-link text-white fs-4" [routerLink]="['/login']">Login  </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+    </div>
+    <div class="borde col-lg-12">
+        <!--para el borde blanco-->
+    </div>
+
+    <!-- termina header -->
+    <div class="container contenedor_todo">
+        <div class="container contenedor_productos">
+            <br>
+            <br>
+            <div class=" tp-3 text-center text-light">
+                <h4 class="productos_titulo">PRODUCTOS</h4>
+            </div>
+
+            <div class="row">
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/image 2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mezcal Espadin</h5>
+                                <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt="">
+                                <p class="card-text">$500</p>
+                                <button type="button" [routerLink]="['/producto']" class="botonsito btn btn-outline-warning">AGREGAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/image 3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mezcal Tobala</h5>
+                                <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt="">
+                                <p class="card-text">$500</p>
+                                <button type="button" [routerLink]="['/producto']" class="botonsito btn btn-outline-warning">AGREGAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/image 4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mezcal Raiz Cenizo</h5>
+                                <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt=""> <img src="img/agave 12.png" alt="">
+                                <p class="card-text">$500</p>
+                                <button type="button" [routerLink]="['/producto']" class="botonsito btn btn-outline-warning">AGREGAR</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
